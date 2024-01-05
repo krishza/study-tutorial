@@ -1,0 +1,166 @@
+/*---------------------Blog section-----------------*/
+.blog-heading {
+    padding: 25px;
+    padding-left: 12rem;
+
+}
+
+.blog-heading h5 {
+    color: #df0688;
+    font-size: 16px;
+}
+
+.blog-heading h2 {
+    font-size: 3rem;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.home3 img {
+    width: 100%;
+
+}
+
+.blog-container .blog-card {
+    width: 300px;
+    background: #fff;
+    padding: 16px;
+    box-shadow: 0 9px 17px -6px rgba(0, 0, 0, 0.2);
+    position: relative;
+
+}
+
+
+.blog-container,
+.blog-container * {
+    box-sizing: border-box;
+}
+
+.blog-container .blog-card a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.blog-container .blog-card img {
+    margin: -16px;
+    object-fit: cover;
+
+}
+
+
+.blog-container .blog-card .blog-category {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #df0688;
+    color: white;
+    padding: 8px;
+    font-size: 10px;
+    text-transform: uppercase;
+
+}
+
+
+.blog-container .blog-card p.title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+
+.blog-container .blog-card .info {
+    display: flex;
+    justify-content: space-between;
+    background: #edf6f9;
+    margin: -16px;
+    margin-top: 20px;
+    padding: 10px 14px;
+    align-items: center;
+}
+
+.blog-container .blog-card .info .info-head {
+    font-size: 16px;
+    font-weight: 900;
+
+}
+
+.blog-container .blog-card .info .info-head::after {
+
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.blog-container .blog-card .info .duration {
+    display: flex;
+}
+
+.blog-container .blog-card .info .time-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.blog-container {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin: auto;
+    justify-content: center;
+}
+
+@media (max-width:850px) {
+    .blog-container {
+        padding: 20px;
+        width: 100%;
+
+    }
+
+    .course-heading {
+        padding: 25px;
+        text-align: center;
+
+    }
+
+    .course-heading h5 {
+        color: #df0688;
+        font-size: 18px;
+    }
+
+    .course-heading h2 {
+        font-size: 30px;
+
+        color: #000000;
+    }
+
+}
+
+@media(max-width:600px) {
+    .blog-container {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .blog-heading {
+        padding: 25px;
+        text-align: center;
+
+    }
+
+    .blog-heading h5 {
+        color: #df0688;
+        font-size: 18px;
+    }
+
+    .blog-heading h2 {
+        font-size: 30px;
+
+        color: #000000;
+    }
+
+
+}

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogs of python</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="icon" href="img/ic2.png" type="image/x-icon" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&family=Onest:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="agent.css">
+
+
+</head>
+
+<style>
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {
+        float: left;
+        width: 75%;
+    }
+
+    /* Right column */
+    .rightcolumn {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+
+    }
+
+    .rightcolumn .fakeimg {
+        background-color: white;
+        box-shadow: 6px 2px 10px 5px rgba(0, 0, 0, 0.147);
+    }
+
+    /* Fake image */
+    .fakeimg {
+        background-color: rgb(230, 230, 230);
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    /* Add a card effect for articles */
+    .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+
+    }
+
+    .card h2 {
+        font-size: 26px;
+        padding: 5px;
+    }
+
+    .card h3 {
+        padding: 10px;
+    }
+
+    .card a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        color: #df0678;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+
+        .leftcolumn,
+        .rightcolumn {
+            width: 100%;
+            padding: 0;
+        }
+    }
+</style>
+
+<body>
+
+    <nav>
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+            <a href="index.html">
+
+                Boosted <span>Lessons</span></a>
+
+        </div>
+        <div class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </div>
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+
+    </nav>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Python</h2>
+                <h5> Dec 7, 2017</h5><br>
+                <img src="img/python.png" alt="" width="100%">
+
+                <p> Thinking of taking the plunge and getting your hands dirty with Python? Perhaps you’re already
+                    familiar with the language, but want to dig deeper to find out just how far down this rabbit hole
+                    goes?
+
+                    Whether you’re a developer with some knowledge of programming or are just now dipping your toes in
+                    these waters, you’ve made the right choice. Python is an easy-to-grasp language that is, at the same
+                    time, versatile enough for you to do some interesting things with.
+
+                    Still, the decision to learn how to use Python effectively is only the first step on this thrilling
+                    journey. Once that’s out of the way, it’s time to educate yourself.</p><br>
+
+                <p>It doesn’t matter whether you’re looking for basic tutorials or news on all the latest developments,
+                    you’ll need some quality sources to keep you posted on all things Python.
+
+                    To make things extra easy for you, we’ve compiled a list of 14 reliable Python blogs—it’s as good a
+                    place to start as any!</p><br>
+
+
+
+                <h2> Best Python blogs, resources, and websites to follow</h2>
+                <h3> 1. Planet Python—the go-to Python blog</h3>
+                <img src="img/python1.webp" alt="" width="100%">
+
+                <p> Planet Python is probably one of the first sources you’ll ever consult for all your Python needs.
+                    The reason for this is quite simple—it’s immensely comprehensive.
+
+                    With several posts a day on average, Planet Python’s incredible range is owed to the fact that it
+                    brings together recent Python-related posts from various other blogs. All the sources are reputable
+                    and the posts themselves have been carefully selected as well, resulting in a blog that gets you a
+                    good range of news and tutorials all across the board.</p><br>
+
+                <h3> Notable post</h3>
+                <p> With a blog as diverse as Planet Python, selecting one post that will serve as an example of the
+                    site’s versatility is quite challenging, but if we were to choose a recent example, there’s
+                    ListenData’s Pandas Python Tutorial. It’s a good indication of how in-depth the tutorials linked on
+                    this blog can go.</p> <br>
+
+                <h3>2. Full Stack Python—a comprehensive resource by multiple Python bloggers</h3>
+                <img src="img/python2.webp" alt="" width="100%">
+
+                <p> If you’re looking for a dedicated resource that will help you get your latest Python-based app up
+                    and running in no time, Full Stack Python definitely lives up to its name.
+
+                    It’s true that updates happen quite haphazardly—some months have multiple updates, followed by a
+                    month of two or silence. Nevertheless, each new post is a detailed, very nicely presented tutorial
+                    on one of the many platforms utilizing Python that will help you get your project off the ground.
+                </p><br>
+
+                <h3>Notable post</h3>
+                <p> To best illustrate the full scope of their tutorials, the post about Flask is a great example. On
+                    top of providing their own instructions and guidelines, Full Stack Python link to plenty of
+                    resources geared towards both beginners and intermediate users, so you’ve got a lot of reading to
+                    work with!</p><br>
+
+                <h3> 3. Real Python—a comprehensive Python programming blog</h3>
+                <img src="img/python3.webp" alt="" width="100%">
+
+                <p> Real Python is fantastic if you want a robust course that’s very easy to digest. With eye-catching
+                    infographics, videos, and an overall fun vibe, this course (because that’s what this blog is,
+                    essentially) will show you the ropes and give you all the necessary tools to start your Python
+                    adventure, while still whetting your appetite for more.</p><br>
+
+                <h3>Notable post</h3>
+                <p> What is Pip? A detailed step-by-step guide that will teach you all there is to know about pip, the
+                    standard package manager for Python.</p> <br>
+
+                <h3> 4. PyBloggers—the best Python bloggers come together</h3>
+                <img src="img/pyhton4.webp" alt="" width="100%">
+
+                <p> Much like Planet Python, this blog brings together posts from various Python bloggers all around the
+                    internet, though they do still have their own contributors create unique posts. It’s rich in
+                    tutorials, tips and tricks that will make coding in Python a breeze.</p><br>
+
+                <h3>Notable post</h3>
+                <p>A post provided by one of the site’s own contributors. It’s a comprehensive tutorial on how
+                    clustering can be used to determine what the dominant color of the image is.</p> <br>
+
+                <h3> 5. TalkPython—a Python blog in audio form</h3>
+                TalkPython blog website screenshot
+                <img src="img/python5.webp" alt="" width="100%">
+                <p> And now for something completely different. We thought that there might be instances in which you
+                    want to learn more but for one reason or another—whether you’re stuck in traffic or are simply too
+                    tired to keep your eyes open—you can’t read a blog post at the moment.</p><br>
+
+                <p>Here’s where TalkPython comes into play. It’s a similar deal to a lot of the other blogs on this
+                    list, but this time it’s a podcast! Kick back and listen to some of the biggest experts in the field
+                    talk about useful Python-related topics.</p><br>
+
+                <h3>6. Python Software Foundation—fresh Python-related content provided by the creators themselves</h3>
+                Python Software Foundation website screenshot
+                <img src="img/python6.webp" alt="" width="100%">
+                <p>Of course, if you really want to know exactly what is going on in the world of Python, your best bet
+                    is to start looking at the source. With the Python Software Foundation blog, you’ll be on top of all
+                    the updates as they happen, tutorials provided by the creators themselves, as well as the latest
+                    news from within the company.</p> <br>
+
+                <h3>Notable post</h3>
+                As an example of what you can encounter on this site, here’s a report on Python Brasil from October
+                2018.
+
+                <h3> 7. Finxter—a Python programming blog for the forward-thinking crowd</h3>
+                Finxter blog website screenshot
+                <img src="img/python7.webp" alt="" width="100%">
+                <p>Finxter is a blog with a wide variety of Python-related guides that is geared a bit more to the hot,
+                    hip, and trendy crowd. The guides are all quite bite-sized, but they give you very practical tips
+                    that are very easy to take in thanks to the format.</p> <br>
+
+                <h3>Notable post</h3>
+                <p>As an example of a very specific guide from the blog, here’s a detailed yet simple explanation of
+                    Python Endswith that is bound to leave you with some good, practical knowledge.</p><br>
+
+                <h3>8. The Python Guru—a Python programming blog offering practical guides and solutions</h3>
+                The Python Guru blog website screenshot
+                <img src="img/python8.webp" alt="" width="100%">
+                <p> The Python Guru is the perfect blog for both absolute beginners in the field of Python, as well as
+                    veterans looking for something interesting to read. There are a ton of guides here, not all of which
+                    are technical, as they mostly focus on the practical applications of the software, especially in
+                    relation to the carrying out business projects.</p><br>
+
+                <h3>Notable post</h3>
+                <p> Here’s a post that goes into detail about how Python can help carry out projects that involve AI and
+                    machine learning—definitely a relevant issue!
+
+                    Best Python bloggers, experts, and influencers to follow
+                    Below you’ll find a list of some of the best bloggers and experts who have mastered Python and are
+                    now sharing their invaluable knowledge and personal experience with the community.
+
+                    They’re an excellent combination of the authors’ perspectives, real-world analogies, personalities,
+                    and great stories.</p><br>
+
+                <h3> 9. Mouse vs. Python—a Python blog with undeniable charm</h3>
+                Mouse vs Python webpage screenshot
+                <img src="img/python9.webp" alt="" width="100%">
+                <p> Don’t let the disarmingly cute name deceive you—Mouse vs. Python is one of the best sources if
+                    you’re looking for the latest scoop on all things Python.
+
+                    With posts on all the latest updates and announcements, as well as interviews with notable Python
+                    developers, this blog will keep you up to speed on everything you need to know about the latest
+                    goings-on in the Python world from a less technical standpoint. The endearing art found throughout
+                    is also a plus.</p><br>
+
+                <h3> Notable post</h3>
+                <p> Did you know that the recent Black Hole photo was made possible with a bunch of Python libraries?
+                    This post goes into further detail.</p><br>
+
+                <h3> 10. Doug Hellmann—run by a prominent Python blogger</h3>
+                Doug Hellmann Python blog website screenshot
+                <img src="img/python10.webp" alt="" width="100%">
+                <p>Run by the creator of Python Module of the Week, this blog acts as more of a database for the many
+                    Python libraries available. Though the posts don’t come regularly, they’re always very robust
+                    rundowns of what can be found in the latest updates.
+
+                    Occasionally, you’ll be treated to longer posts written by Doug, which act more as an assortment of
+                    think pieces and guides related to Python.
+                </p> <br>
+                <h3>11. Miguel Grinberg—a Python blog by a true expert, not only on Flask</h3>
+                Miguel Grinberg Python blog website screenshot
+                <img src="img/python11.webp" alt="" width="100%">
+                <p>Miguel Grinberg is a Principal Software Engineer for Technical Content at Twilio. He’s also known
+                    for his valuable contributions to the Flask API framework and numerous books on Python and writing
+                    software in general.
+
+                    Miguel has around 30 years of experience in the industry, and he tackles a variety of areas, from
+                    web development, microservices, cloud, and video broadcasting to computer animation.
+
+                    Apart from the articles themselves, most of Miguel’s posts contain YouTube videos, so if you’re
+                    looking for tutorials for beginners, this blog will come in really handy.</p> <br>
+
+                <h3> Notable post</h3>
+                <p> To prove how easy it is to learn Python with Miguel and how helpful his knowledge of Flask might be,
+                    check out this post right here: The Flask Mega-Tutorial Part I: Hello, World!</p> <br>
+
+                <h3> 12. PyDanny—a blog by a Python veteran</h3>
+                PyDanny-blog-screenshot
+                <img src="img/python12.webp" alt="" width="100%">
+                <p> PyDanny is a blog by Daniel Roy Greenfeld, a software veteran with decades of experience under his
+                    belt. He currently works as a Director of Engineering for Octopus Energy, but has worked for many
+                    companies, including NASA.
+
+                    Daniel’s primarily skilled in areas such as Python and Django, but works with JavaScript and C# from
+                    time to time, too.
+
+                    His blog is a great collection of useful resources and books, but most importantly, extensive and
+                    educational tutorials that will shed some light on working with Python.
+
+                    He’s also the co-author of the series titled “Two Scoops of Django,” the ice cream-themed books
+                    created together with his wife, Audrey.
+
+                    If you’re a huge fan of the Python programming language, but want to know more about other
+                    technologies, this blog will be a great fit for you.</p><br>
+
+                <h3> Notable post</h3>
+                <p> We highly recommend reading Daniel’s post on The Thirty Minute Rule—it says that if anyone gets
+                    stuck on something for more than 30 minutes, they should ask for help. Sounds interesting, doesn’t
+                    it?</p>
+                <br>
+                <h3>13. Matt Layman—a blog on all things Python and Django</h3>
+                Matt-Layman-blog-screenshot
+                <img src="img/python13.webp" alt="" width="100%">
+                <p> Matt Layman is a software architect at Doctor on Demand, a polyglot programmer, and a Django
+                    training consultant with over a decade of experience in web development.
+
+                    Matt blogs mostly about Python and Django where he shares some useful techniques, strategies,
+                    tutorials, and tips on how to make things more efficient through automation, but will help you out
+                    with JavaScript and many other languages, too.
+
+                    His posts combine text, audio, and videos, which makes them easy to digest and fun to read. You can
+                    expect a few posts every month and a ton of valuable YouTube videos to watch on his channel. </p>
+                <br>
+
+                <h3> Notable post</h3>
+                <p>Need proof? Check out Matt’s post on Debugging Tips and Techniques, which aims to equip you with
+                    tools to fix the real problems you’re likely to hit when building your Django site.
+                </p> <br>
+                <h3> 14. Ned Batchelder—learn from a Python master with four decades of experience</h3>
+                Ned-Batchelder-blog-screenshot
+                <img src="img/python14.webp" alt="" width="100%">
+                <p> Ned Batchelder is a software developer with almost 40 years of experience in building software that
+                    solves real problems by using diverse technologies. His blog is one of the oldest active Python
+                    blogs from the early 2000s.
+
+                    If that fact alone doesn’t speak for itself, we shall add that his blog reflects a variety of Ned’s
+                    awesome interests: “software engineering, parenting, math (especially visual aspects, such as
+                    geometry), politics, geeky recreations, language, and so on.”
+
+                    Needless to say, you’ll find a ton of really creative articles here, some mixed with puzzles.
+                    They’ll be great for Python enthusiasts at any level. We cannot recommend them enough.
+
+                    Although more frequent posts would be more than welcome, there’s a huge collection of older posts to
+                    study written by Ned—somebody who’s experimented with and written Python longer than most on this
+                    list. </p><br>
+
+                <h3>Notable post </h3>
+                <p>“Why your mock still doesn’t work” is a great example of Ned’s interesting way of writing, but you
+                    should especially check out his “What’s in which Python,” a helpful summary of what features
+                    appeared in which versions of Python, all in one place. </p><br>
+
+                <h3>Final thoughts on the top Python blogs</h3>
+                <p> Python is an incredible solution that opens up a ton of opportunities, but we know all too well just
+                    how much looking up reliable sources of knowledge on the topic can take. We hope our little list
+                    will come in handy, giving you all the info you need in an organized, digestible form.
+
+                    And if you ever get thirsty for more knowledge, head on up to our own blog! After all, we at STX
+                    Next have quite a bit of expertise in the field ourselves. With over 18 years on the market, over
+                    350 developers, 800+ successful projects, and more than 300 satisfied clients, we have a lot of
+                    knowledge we’d be happy to share with you. </p><br>
+
+                <p>Here’s just a taste of what we have on Python alone:</p><br>
+
+                The Best Python IDEs and Code Editors (According to Our Developers and the Python Community)
+                Python for Data Engineering: Why Do Data Engineers Use Python?
+                40 Most Popular Python Scientific Libraries
+                If you’re interested in working with us, check out our current job opportunities. We are constantly
+                looking for talented, enthusiastic Python developers to join our ranks. Since 2005, our
+                interdisciplinary teams have been creating unique products that combine good practices, high-quality
+                software, and new technologies.
+
+                And in case you’re looking for an expert Python development team with a wide variety of libraries
+                and frameworks at hand to meet your specific needs, reach out to us and let’s discuss your next
+                software project!</p>
+            </div>
+
+        </div>
+        <div class="rightcolumn">
+
+            <div class="card">
+                <h3>Popular Post</h3>
+                <a href="python blogs.html">
+                    <div class="fakeimg"><img src="img/python.png" alt="" width="100%">Pyhton</div>
+                </a><br>
+                <a href="marketing blogs.html">
+                    <div class="fakeimg"><img src="img/market.jpg" alt="" width="100%">Marketing</div>
+                </a><br> <a href="web blogs.html">
+                    <div class="fakeimg"><img src="img/web.jpg" alt="" width="100%">Web development</div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
